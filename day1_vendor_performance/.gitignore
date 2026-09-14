@@ -1,3 +1,6 @@
+# Large raw datasets
+data/*.csv
+
 # Python bytecode and tooling caches
 __pycache__/
 *.py[cod]
@@ -27,3 +30,8 @@ logs/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
